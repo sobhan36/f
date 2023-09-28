@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color:#afacac ;
+}
+main{
+  width: 75%;
+  margin: 10px auto;
+  border: 1px solid #ddd;
+  text-align: center;
+  color: white;
+  display: grid;
+  grid-template-rows: 60px 100px 200px 60px;
+  grid-template-columns: repeat(3 1fr) 150px;
+
+}
+
+
+
+
+.Box1{background-color: red;}
+.Box2{background-color:green;}
+.Box3{background-color:green;}
+.Box4{background-color: forestgreen;}
+.Box5{background-color:grey ;}
+.Box6{background-color:yellow;}
+.Box7{background-color: #00d2d3;}
